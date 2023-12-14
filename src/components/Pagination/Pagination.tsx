@@ -1,27 +1,23 @@
+import { Link } from "react-router-dom";
 import styles from "./style.module.scss";
+import { TCurrentPage } from "@/types";
 
 type Props = {
   pages: number;
-  current: number;
-  changeHandler: (n: number) => void;
+  current: TCurrentPage;
 };
 
-export default function Pagination({
-  pages = 1,
-  current = 1,
-  changeHandler,
-}: Props) {
+export default function Pagination({ pages = 1, current }: Props) {
   return (
     <div className={styles.root}>
       {new Array(pages).fill(null).map((_: number, i: number) => (
-        <button
+        <Link
+          to={`/products/${current.categorySlug}/${i + 1}`}
           key={i}
           className={styles.button}
-          onClick={() => changeHandler(i + 1)}
-          disabled={i + 1 === current}
         >
           {i + 1}
-        </button>
+        </Link>
       ))}
     </div>
   );
