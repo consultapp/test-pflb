@@ -1,0 +1,47 @@
+.root {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  background-color: white;
+  border-radius: 0 0 0 8px;
+  width: 300px;
+  height: 600px;
+  color: black;
+  border: 2px solid black;
+
+  display: grid;
+  flex-direction: column;
+
+  transform: translateX(305px);
+  transition: transform 0.3s 0s;
+
+  &[data-open="true"] {
+    transform: translateX(0);
+    transition: transform 0.3s 0s;
+  }
+
+  &__header {
+    font-size: 32px;
+    margin-top: 15px;
+    justify-self: center;
+  }
+
+  &__toggleButton {
+    position: absolute;
+    border: 2px solid black;
+    border-right: 0px;
+    top: -2px;
+    left: -42px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__open,
+  &__close {
+    position: absolute;
+  }
+}

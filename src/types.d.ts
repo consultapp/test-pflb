@@ -1,3 +1,4 @@
+// PRODUCTS
 export type TProductID = number;
 
 export type TProduct = {
@@ -17,6 +18,7 @@ export type TProductState = {
   loadingStatus: LOADING_STATUS;
 };
 
+// PAGE
 export type TCurrentPage = {
   categorySlug: string;
   page: number | undefined;
@@ -26,4 +28,12 @@ export type TPageState = {
   currentPage: TCurrentPage;
   pagesCount: { [categorySlug: string]: number };
   loadingStatus: LOADING_STATUS;
+};
+
+// CART
+export type TCartState = {
+  cart: {
+    [id: TProductID]: { count: number } & Pick<TProduct, "name"> &
+      Pick<TProduct, "price">;
+  };
 };
