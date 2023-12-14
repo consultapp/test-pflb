@@ -1,0 +1,585 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categorySlug": "food",
+      "name": "Delicious Pizza",
+      "price": 10.99,
+      "description": "A mouthwatering pizza with a variety of toppings.",
+      "image": "food_pizza.jpg"
+    },
+    {
+      "id": 2,
+      "categorySlug": "dress",
+      "name": "Stylish Summer Dress",
+      "price": 29.99,
+      "description": "A trendy and comfortable dress for the summer season.",
+      "image": "dress_summer.jpg"
+    },
+    {
+      "id": 3,
+      "categorySlug": "electric",
+      "name": "Smartphone Charger",
+      "price": 15.5,
+      "description": "Fast-charging USB-C charger for smartphones and tablets.",
+      "image": "electric_charger.jpg"
+    },
+    {
+      "id": 4,
+      "categorySlug": "food",
+      "name": "Fresh Salad Bowl",
+      "price": 8.99,
+      "description": "A healthy salad bowl with a mix of fresh vegetables and greens.",
+      "image": "food_salad.jpg"
+    },
+    {
+      "id": 5,
+      "categorySlug": "dress",
+      "name": "Formal Men's Suit",
+      "price": 99.99,
+      "description": "A classic and elegant suit for formal occasions.",
+      "image": "dress_suit.jpg"
+    },
+    {
+      "id": 6,
+      "categorySlug": "electric",
+      "name": "Wireless Earbuds",
+      "price": 49.95,
+      "description": "High-quality wireless earbuds with noise-canceling technology.",
+      "image": "electric_earbuds.jpg"
+    },
+    {
+      "id": 7,
+      "categorySlug": "food",
+      "name": "Gourmet Chocolate Box",
+      "price": 12.75,
+      "description": "A collection of premium chocolates from around the world.",
+      "image": "food_chocolate.jpg"
+    },
+    {
+      "id": 8,
+      "categorySlug": "dress",
+      "name": "Casual Floral Dress",
+      "price": 24.99,
+      "description": "A comfortable and stylish floral dress for casual outings.",
+      "image": "dress_floral.jpg"
+    },
+    {
+      "id": 9,
+      "categorySlug": "electric",
+      "name": "Smart LED Bulbs (Pack of 3)",
+      "price": 22.99,
+      "description": "Energy-efficient smart LED bulbs with app control.",
+      "image": "electric_led_bulbs.jpg"
+    },
+    {
+      "id": 10,
+      "categorySlug": "food",
+      "name": "Organic Fruit Basket",
+      "price": 19.99,
+      "description": "A selection of fresh organic fruits in a decorative basket.",
+      "image": "food_fruit_basket.jpg"
+    },
+    {
+      "id": 11,
+      "categorySlug": "dress",
+      "name": "Sporty Jogging Set",
+      "price": 34.5,
+      "description": "A sporty jogging set for fitness enthusiasts.",
+      "image": "dress_jogging_set.jpg"
+    },
+    {
+      "id": 12,
+      "categorySlug": "electric",
+      "name": "Digital Camera",
+      "price": 299.0,
+      "description": "High-resolution digital camera for capturing memorable moments.",
+      "image": "electric_camera.jpg"
+    },
+    {
+      "id": 13,
+      "categorySlug": "food",
+      "name": "Spicy Ramen Noodles",
+      "price": 7.49,
+      "description": "Authentic and spicy ramen noodles for a flavorful experience.",
+      "image": "food_ramen.jpg"
+    },
+    {
+      "id": 14,
+      "categorySlug": "dress",
+      "name": "Elegant Evening Gown",
+      "price": 129.99,
+      "description": "An exquisite evening gown for special occasions.",
+      "image": "dress_evening_gown.jpg"
+    },
+    {
+      "id": 15,
+      "categorySlug": "electric",
+      "name": "Smart Thermostat",
+      "price": 79.95,
+      "description": "Programmable smart thermostat for energy-efficient home heating and cooling.",
+      "image": "electric_thermostat.jpg"
+    },
+    {
+      "id": 16,
+      "categorySlug": "food",
+      "name": "Artisanal Cheese Platter",
+      "price": 24.99,
+      "description": "A selection of fine cheeses served on a wooden platter.",
+      "image": "food_cheese_platter.jpg"
+    },
+    {
+      "id": 17,
+      "categorySlug": "dress",
+      "name": "Bohemian Maxi Skirt",
+      "price": 39.99,
+      "description": "A flowy and bohemian maxi skirt for a relaxed style.",
+      "image": "dress_maxi_skirt.jpg"
+    },
+    {
+      "id": 18,
+      "categorySlug": "electric",
+      "name": "Wireless Gaming Mouse",
+      "price": 54.99,
+      "description": "High-performance wireless gaming mouse with customizable RGB lighting.",
+      "image": "electric_gaming_mouse.jpg"
+    },
+    {
+      "id": 19,
+      "categorySlug": "food",
+      "name": "Exotic Tropical Smoothie",
+      "price": 5.99,
+      "description": "A refreshing smoothie with tropical fruits and coconut water.",
+      "image": "food_smoothie.jpg"
+    },
+    {
+      "id": 20,
+      "categorySlug": "dress",
+      "name": "Classic Tuxedo",
+      "price": 149.99,
+      "description": "A timeless tuxedo for formal events and weddings.",
+      "image": "dress_tuxedo.jpg"
+    },
+    {
+      "id": 21,
+      "categorySlug": "electric",
+      "name": "Smart Home Security Camera",
+      "price": 89.5,
+      "description": "HD security camera with motion detection and two-way audio.",
+      "image": "electric_security_camera.jpg"
+    },
+    {
+      "id": 22,
+      "categorySlug": "food",
+      "name": "Mediterranean Olive Oil Set",
+      "price": 16.99,
+      "description": "A set of premium extra virgin olive oils from the Mediterranean.",
+      "image": "food_olive_oil_set.jpg"
+    },
+    {
+      "id": 23,
+      "categorySlug": "dress",
+      "name": "Cotton Casual Shirt",
+      "price": 19.99,
+      "description": "A comfortable cotton shirt for casual wear.",
+      "image": "dress_casual_shirt.jpg"
+    },
+    {
+      "id": 24,
+      "categorySlug": "electric",
+      "name": "Wireless Bluetooth Headphones",
+      "price": 79.99,
+      "description": "Over-ear wireless headphones with immersive sound quality.",
+      "image": "electric_headphones.jpg"
+    },
+    {
+      "id": 25,
+      "categorySlug": "food",
+      "name": "Sushi Assortment",
+      "price": 22.5,
+      "description": "An assortment of fresh and delicious sushi rolls.",
+      "image": "food_sushi.jpg"
+    },
+    {
+      "id": 26,
+      "categorySlug": "dress",
+      "name": "Vintage Cocktail Dress",
+      "price": 54.95,
+      "description": "A stylish vintage-inspired cocktail dress for special occasions.",
+      "image": "dress_cocktail.jpg"
+    },
+    {
+      "id": 27,
+      "categorySlug": "electric",
+      "name": "Portable Power Bank",
+      "price": 29.99,
+      "description": "Compact and portable power bank for charging devices on the go.",
+      "image": "electric_power_bank.jpg"
+    },
+    {
+      "id": 28,
+      "categorySlug": "food",
+      "name": "Artisan Bread Basket",
+      "price": 14.75,
+      "description": "A selection of freshly baked artisanal bread in a rustic basket.",
+      "image": "food_bread_basket.jpg"
+    },
+    {
+      "id": 29,
+      "categorySlug": "dress",
+      "name": "Boho Chic Sundress",
+      "price": 32.99,
+      "description": "A bohemian-inspired sundress for a relaxed and stylish look.",
+      "image": "dress_sundress.jpg"
+    },
+    {
+      "id": 30,
+      "categorySlug": "electric",
+      "name": "Smart Home Lighting Kit",
+      "price": 129.0,
+      "description": "Smart LED bulbs and lighting control hub for customizable home lighting.",
+      "image": "electric_lighting_kit.jpg"
+    },
+    {
+      "id": 31,
+      "categorySlug": "food",
+      "name": "Vegetarian Pasta",
+      "price": 12.99,
+      "description": "Delicious pasta with a variety of fresh vegetables and herbs.",
+      "image": "food_vegetarian_pasta.jpg"
+    },
+    {
+      "id": 32,
+      "categorySlug": "food",
+      "name": "Grilled Chicken Salad",
+      "price": 14.5,
+      "description": "A healthy salad featuring grilled chicken, mixed greens, and vinaigrette.",
+      "image": "food_grilled_chicken_salad.jpg"
+    },
+    {
+      "id": 33,
+      "categorySlug": "food",
+      "name": "Homemade Lasagna",
+      "price": 18.99,
+      "description": "Classic homemade lasagna with layers of pasta, meat sauce, and cheese.",
+      "image": "food_homemade_lasagna.jpg"
+    },
+    {
+      "id": 37,
+      "categorySlug": "food",
+      "name": "Caprese Salad",
+      "price": 13.99,
+      "description": "A classic Caprese salad with fresh tomatoes, mozzarella, and basil.",
+      "image": "food_caprese_salad.jpg"
+    },
+    {
+      "id": 38,
+      "categorySlug": "food",
+      "name": "Vegan Buddha Bowl",
+      "price": 16.5,
+      "description": "A nourishing Buddha bowl with a variety of plant-based ingredients.",
+      "image": "food_vegan_buddha_bowl.jpg"
+    },
+    {
+      "id": 39,
+      "categorySlug": "food",
+      "name": "Shrimp Scampi",
+      "price": 19.99,
+      "description": "Delicious shrimp scampi with garlic, lemon, and parsley.",
+      "image": "food_shrimp_scampi.jpg"
+    },
+    {
+      "id": 40,
+      "categorySlug": "food",
+      "name": "Quinoa Stuffed Bell Peppers",
+      "price": 14.75,
+      "description": "Bell peppers stuffed with quinoa, black beans, and vegetables.",
+      "image": "food_quinoa_stuffed_peppers.jpg"
+    },
+    {
+      "id": 41,
+      "categorySlug": "food",
+      "name": "Teriyaki Salmon",
+      "price": 22.99,
+      "description": "Grilled teriyaki-glazed salmon fillet with sesame seeds.",
+      "image": "food_teriyaki_salmon.jpg"
+    },
+    {
+      "id": 42,
+      "categorySlug": "food",
+      "name": "Pesto Pasta Salad",
+      "price": 11.5,
+      "description": "Pasta salad with pesto, cherry tomatoes, and pine nuts.",
+      "image": "food_pesto_pasta_salad.jpg"
+    },
+    {
+      "id": 43,
+      "categorySlug": "food",
+      "name": "Mango Tango Smoothie",
+      "price": 7.99,
+      "description": "A tropical smoothie with mango, pineapple, and coconut milk.",
+      "image": "food_mango_smoothie.jpg"
+    },
+    {
+      "id": 44,
+      "categorySlug": "food",
+      "name": "Chicken Caesar Wrap",
+      "price": 10.5,
+      "description": "Grilled chicken, romaine lettuce, and Caesar dressing in a wrap.",
+      "image": "food_caesar_wrap.jpg"
+    },
+    {
+      "id": 45,
+      "categorySlug": "food",
+      "name": "Homestyle Meatloaf",
+      "price": 17.99,
+      "description": "Classic homestyle meatloaf with savory herbs and ketchup glaze.",
+      "image": "food_meatloaf.jpg"
+    },
+    {
+      "id": 46,
+      "categorySlug": "food",
+      "name": "Pumpkin Spice Latte",
+      "price": 5.95,
+      "description": "A seasonal favorite with pumpkin spice, espresso, and steamed milk.",
+      "image": "food_pumpkin_spice_latte.jpg"
+    },
+    {
+      "id": 47,
+      "categorySlug": "dress",
+      "name": "Bohemian Midi Dress",
+      "price": 38.99,
+      "description": "A flowy midi dress with bohemian prints and loose sleeves.",
+      "image": "dress_bohemian_midi.jpg"
+    },
+    {
+      "id": 48,
+      "categorySlug": "dress",
+      "name": "Classic Little Black Dress",
+      "price": 49.95,
+      "description": "Timeless little black dress for elegant and formal occasions.",
+      "image": "dress_little_black.jpg"
+    },
+    {
+      "id": 49,
+      "categorySlug": "dress",
+      "name": "Chic A-Line Skirt",
+      "price": 28.5,
+      "description": "A-line skirt with a chic pattern, perfect for casual or semi-formal wear.",
+      "image": "dress_aline_skirt.jpg"
+    },
+    {
+      "id": 50,
+      "categorySlug": "dress",
+      "name": "Vintage Floral Maxi",
+      "price": 64.99,
+      "description": "Vintage-inspired maxi dress with a beautiful floral design.",
+      "image": "dress_vintage_floral_maxi.jpg"
+    },
+    {
+      "id": 51,
+      "categorySlug": "dress",
+      "name": "Striped Shirt Dress",
+      "price": 34.95,
+      "description": "Shirt dress with classic stripes for a casual yet polished look.",
+      "image": "dress_striped_shirt.jpg"
+    },
+    {
+      "id": 52,
+      "categorySlug": "dress",
+      "name": "Ruffled Wrap Dress",
+      "price": 42.99,
+      "description": "Wrap dress with ruffled details for a feminine and trendy style.",
+      "image": "dress_ruffled_wrap.jpg"
+    },
+    {
+      "id": 53,
+      "categorySlug": "dress",
+      "name": "Modern Jumpsuit",
+      "price": 56.75,
+      "description": "Sleek and modern jumpsuit for a fashionable and bold statement.",
+      "image": "dress_modern_jumpsuit.jpg"
+    },
+    {
+      "id": 54,
+      "categorySlug": "dress",
+      "name": "Embroidered Lace Gown",
+      "price": 129.99,
+      "description": "Elegant gown with intricate lace embroidery for special occasions.",
+      "image": "dress_embroidered_lace_gown.jpg"
+    },
+    {
+      "id": 55,
+      "categorySlug": "dress",
+      "name": "Trendy Denim Jacket",
+      "price": 45.5,
+      "description": "Denim jacket with trendy details for a casual and cool vibe.",
+      "image": "dress_denim_jacket.jpg"
+    },
+    {
+      "id": 56,
+      "categorySlug": "dress",
+      "name": "Casual Striped T-Shirt",
+      "price": 19.99,
+      "description": "Comfortable striped t-shirt for everyday casual wear.",
+      "image": "dress_striped_tshirt.jpg"
+    },
+    {
+      "id": 57,
+      "categorySlug": "dress",
+      "name": "Flowy Boho Kimono",
+      "price": 32.95,
+      "description": "Bohemian-inspired kimono with a flowy and relaxed fit.",
+      "image": "dress_boho_kimono.jpg"
+    },
+    {
+      "id": 58,
+      "categorySlug": "dress",
+      "name": "Chic Belted Jumpsuit",
+      "price": 48.5,
+      "description": "Belted jumpsuit for a stylish and put-together look.",
+      "image": "dress_belted_jumpsuit.jpg"
+    },
+    {
+      "id": 59,
+      "categorySlug": "dress",
+      "name": "Satin Slip Dress",
+      "price": 39.99,
+      "description": "Satin slip dress for a touch of luxury and sophistication.",
+      "image": "dress_satin_slip.jpg"
+    },
+    {
+      "id": 60,
+      "categorySlug": "dress",
+      "name": "Classic Pencil Skirt",
+      "price": 29.5,
+      "description": "Timeless pencil skirt for a polished and professional look.",
+      "image": "dress_pencil_skirt.jpg"
+    },
+    {
+      "id": 61,
+      "categorySlug": "food",
+      "name": "Vegetable Stir-Fry",
+      "price": 14.99,
+      "description": "A delicious and healthy vegetable stir-fry with a savory sauce.",
+      "image": "food_vegetable_stir_fry.jpg"
+    },
+    {
+      "id": 62,
+      "categorySlug": "food",
+      "name": "Crispy Chicken Tenders",
+      "price": 12.5,
+      "description": "Crispy and golden-brown chicken tenders, perfect for snacking.",
+      "image": "food_chicken_tenders.jpg"
+    },
+    {
+      "id": 63,
+      "categorySlug": "food",
+      "name": "Mango Avocado Salsa",
+      "price": 8.95,
+      "description": "Refreshing salsa with a blend of ripe mango and creamy avocado.",
+      "image": "food_mango_avocado_salsa.jpg"
+    },
+    {
+      "id": 64,
+      "categorySlug": "food",
+      "name": "Baked Ziti",
+      "price": 16.99,
+      "description": "Classic baked ziti with layers of pasta, marinara sauce, and melted cheese.",
+      "image": "food_baked_ziti.jpg"
+    },
+    {
+      "id": 65,
+      "categorySlug": "food",
+      "name": "Lemon Garlic Shrimp",
+      "price": 19.75,
+      "description": "Succulent shrimp cooked with a zesty lemon-garlic butter sauce.",
+      "image": "food_lemon_garlic_shrimp.jpg"
+    },
+    {
+      "id": 66,
+      "categorySlug": "food",
+      "name": "Sweet Potato Fries",
+      "price": 9.5,
+      "description": "Crispy and seasoned sweet potato fries, a tasty side dish.",
+      "image": "food_sweet_potato_fries.jpg"
+    },
+    {
+      "id": 67,
+      "categorySlug": "food",
+      "name": "Tomato Basil Bruschetta",
+      "price": 11.99,
+      "description": "Classic bruschetta with ripe tomatoes, fresh basil, and balsamic glaze.",
+      "image": "food_bruschetta.jpg"
+    },
+    {
+      "id": 68,
+      "categorySlug": "food",
+      "name": "BBQ Pulled Pork Sandwich",
+      "price": 14.5,
+      "description": "Tender pulled pork in BBQ sauce, served in a soft sandwich bun.",
+      "image": "food_bbq_pulled_pork.jpg"
+    },
+    {
+      "id": 69,
+      "categorySlug": "food",
+      "name": "Greek Salad",
+      "price": 12.99,
+      "description": "A refreshing Greek salad with feta cheese, olives, and crisp vegetables.",
+      "image": "food_greek_salad.jpg"
+    },
+    {
+      "id": 70,
+      "categorySlug": "food",
+      "name": "Chicken Alfredo Pasta",
+      "price": 17.5,
+      "description": "Creamy chicken Alfredo pasta with a rich and savory sauce.",
+      "image": "food_chicken_alfredo_pasta.jpg"
+    },
+    {
+      "id": 71,
+      "categorySlug": "food",
+      "name": "Vegetarian Spring Rolls",
+      "price": 13.99,
+      "description": "Crispy spring rolls filled with a variety of fresh vegetables.",
+      "image": "food_vegetarian_spring_rolls.jpg"
+    },
+    {
+      "id": 72,
+      "categorySlug": "food",
+      "name": "Chocolate Raspberry Tart",
+      "price": 21.95,
+      "description": "Decadent chocolate tart with a layer of raspberry compote.",
+      "image": "food_chocolate_raspberry_tart.jpg"
+    },
+    {
+      "id": 73,
+      "categorySlug": "food",
+      "name": "Cajun Shrimp Pasta",
+      "price": 18.5,
+      "description": "Spicy Cajun shrimp served over a bed of pasta with creamy sauce.",
+      "image": "food_cajun_shrimp_pasta.jpg"
+    },
+    {
+      "id": 74,
+      "categorySlug": "food",
+      "name": "Hawaiian Poke Bowl",
+      "price": 22.99,
+      "description": "A Hawaiian-inspired poke bowl with fresh fish, rice, and tropical toppings.",
+      "image": "food_hawaiian_poke_bowl.jpg"
+    },
+    {
+      "id": 75,
+      "categorySlug": "food",
+      "name": "Mushroom Risotto",
+      "price": 16.75,
+      "description": "Creamy mushroom risotto cooked to perfection with Arborio rice.",
+      "image": "food_mushroom_risotto.jpg"
+    }
+  ],
+  "pagesCount": {
+    "electric": 2,
+    "dress": 5,
+    "food": 8
+  }
+}

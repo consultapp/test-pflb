@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.button {
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
