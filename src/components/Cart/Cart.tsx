@@ -1,4 +1,7 @@
+import { useAppSelector } from "@/store/hooks";
 import styles from "./style.module.scss";
+import { selectCartIds } from "@/store/ui/cart/selectors";
+import CartItem from "../CartItem/CartItem";
 
 type Props = {
   open: boolean;
@@ -6,6 +9,8 @@ type Props = {
 };
 
 export default function Cart({ open, toggle }: Props) {
+  const productIds = useAppSelector(selectCartIds);
+
   return (
     <div className={styles.root} data-open={open}>
       <div className={styles.root__toggleButton}>
@@ -39,11 +44,11 @@ export default function Cart({ open, toggle }: Props) {
           </svg>
         )}
       </div>
-
       <span className={styles.root__header}>Cart</span>
-      <div className={styles.root__item}></div>
-      <div className={styles.root__item}></div>
-      <div className={styles.root__item}></div>
+
+      {productIds.map((id) => (
+        <CartItem id={id} />
+      ))}
     </div>
   );
 }

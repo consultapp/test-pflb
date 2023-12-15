@@ -11,6 +11,7 @@
 
   display: grid;
   flex-direction: column;
+  align-content: flex-start;
 
   transform: translateX(305px);
   transition: transform 0.3s 0s;

@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  gap: 5px;
+
+  &__name {
+    flex-grow: 1;
+  }
+}
