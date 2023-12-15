@@ -9,9 +9,8 @@
   color: black;
   border: 2px solid black;
 
-  display: grid;
+  display: flex;
   flex-direction: column;
-  align-content: flex-start;
 
   transform: translateX(305px);
   transition: transform 0.3s 0s;
@@ -22,9 +21,9 @@
   }
 
   &__header {
-    font-size: 32px;
+    font-size: 2rem;
     margin-top: 15px;
-    justify-self: center;
+    text-align: center;
   }
 
   &__toggleButton {
@@ -41,8 +40,16 @@
     align-items: center;
   }
 
-  &__open,
-  &__close {
-    position: absolute;
+  &__total {
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  &__itemList {
+    overflow-y: scroll;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }

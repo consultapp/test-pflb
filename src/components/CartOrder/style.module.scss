@@ -1,0 +1,22 @@
+.root {
+  align-self: center;
+  display: grid;
+  justify-content: center;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  margin: 5px;
+  gap: 10px;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+
+  &__amount {
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  &__order {
+    font-size: 1.2rem;
+    align-self: center;
+    padding: 5px;
+  }
+}

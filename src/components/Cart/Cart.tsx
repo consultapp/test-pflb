@@ -2,6 +2,7 @@ import { useAppSelector } from "@/store/hooks";
 import styles from "./style.module.scss";
 import { selectCartIds } from "@/store/ui/cart/selectors";
 import CartItem from "../CartItem/CartItem";
+import CartOrder from "../CartOrder/CartOrder";
 
 type Props = {
   open: boolean;
@@ -45,10 +46,12 @@ export default function Cart({ open, toggle }: Props) {
         )}
       </div>
       <span className={styles.root__header}>Cart</span>
-
-      {productIds.map((id) => (
-        <CartItem id={id} />
-      ))}
+      <div className={styles.root__itemList}>
+        {productIds.map((id) => (
+          <CartItem id={id} key={id} />
+        ))}
+      </div>
+      <CartOrder />
     </div>
   );
 }
