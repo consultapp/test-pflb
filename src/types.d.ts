@@ -15,9 +15,13 @@ export type TProductState = {
   entities: { [id: TProductID]: TProduct };
   ids: TProductID[];
   pages: { [pageSlug: string]: TProductID[] }; // pageSlug = concat categorySlug and pageNumber
+  filter: TFilter;
   loadingStatus: LOADING_STATUS;
 };
-
+export type TFilter = {
+  field: "" | "name" | "price";
+  type: "" | "asc" | "desc";
+};
 // PAGE
 export type TCurrentPage = {
   categorySlug: string;

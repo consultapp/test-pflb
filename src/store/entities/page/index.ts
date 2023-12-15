@@ -25,7 +25,6 @@ export const pageSlice = createSlice({
     failLoading: (state) => {
       state.loadingStatus = LOADING_STATUS.failed;
     },
-
     setCategory: (state, { payload }) => {
       state.currentPage = { categorySlug: payload, page: 1 };
     },

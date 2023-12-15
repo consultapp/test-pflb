@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  font-size: 1.2rem;
+
+  &__select {
+    font-size: 1.1rem;
+  }
+}

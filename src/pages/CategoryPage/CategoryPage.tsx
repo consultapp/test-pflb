@@ -1,3 +1,4 @@
+import Filter from "@/components/Filter/Filter";
 import Layout from "@/components/Layout/Layout";
 import Loading from "@/components/Loading.ts/Loading";
 import PaginationContainer from "@/containers/PaginationContainer/PaginationContainer";
@@ -36,6 +37,7 @@ export default function CategoryPage() {
   return (
     <Layout>
       <h1>Category Page</h1>
+      <Filter />
       <ProductsContainer />
       <PaginationContainer />
     </Layout>

@@ -6,6 +6,8 @@ const initialState: TProductState = {
   entities: {},
   ids: [],
   pages: {},
+  filter: { field: "", type: "" },
+
   loadingStatus: LOADING_STATUS.idle,
 };
 
@@ -32,6 +34,10 @@ export const productSlice = createSlice({
     },
     failLoading: (state) => {
       state.loadingStatus = LOADING_STATUS.failed;
+    },
+    setFitler: (state, { payload }) => {
+      state.pages = {};
+      state.filter = { ...state.filter, ...payload };
     },
   },
 });

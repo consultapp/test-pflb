@@ -21,3 +21,7 @@ export const selectIsProductLoading = (state: RootState) =>
 
 export const selectProductIdsByPage = (state: RootState, page: TCurrentPage) =>
   selectProductModule(state).pages[page.categorySlug + page.page];
+
+//Filter
+export const selectProductFilter = (state: RootState) =>
+  selectProductModule(state).filter;

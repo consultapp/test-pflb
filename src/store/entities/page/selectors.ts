@@ -17,6 +17,7 @@ export const selectPageCountByCategorySlug = (
 export const selectPageCurrentCount = (state: RootState) =>
   selectPagesCount(state)[selectPageCurrent(state).categorySlug];
 
+// Status
 export const selectPageLoadingStatus = (state: RootState) =>
   selectPageModule(state).loadingStatus;
 
