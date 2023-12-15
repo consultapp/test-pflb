@@ -9,21 +9,17 @@ export const cartSlice = createSlice({
   name: "cart",
   initialState,
   reducers: {
-    addToCart: (state, { payload }: { payload: TProduct }) => {
-      if (Object.keys(state.cart).includes(payload.id.toString())) {
-        state.cart[payload.id].count++;
-      } else
-        state.cart = {
-          ...state.cart,
-          [payload.id]: { count: 1, name: payload.name, price: payload.price },
-        };
+    addToCart: (state, { payload }: { payload: TProductID }) => {
+      if (Object.keys(state.cart).includes(payload.toString())) {
+        state.cart[payload]++;
+      } else state.cart[payload] = 1;
     },
     decrimentInCart: (state, { payload }: { payload: TProductID }) => {
       if (
         Object.keys(state.cart).includes(payload.toString()) &&
-        state.cart[payload].count > 1
+        state.cart[payload] > 1
       ) {
-        state.cart[payload].count--;
+        state.cart[payload]--;
       } else delete state.cart[payload];
     },
     deleteFromCart: (state, { payload }: { payload: TProductID }) => {

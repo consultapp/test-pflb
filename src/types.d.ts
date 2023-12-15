@@ -33,7 +33,6 @@ export type TPageState = {
 // CART
 export type TCartState = {
   cart: {
-    [id: TProductID]: { count: number } & Pick<TProduct, "name"> &
-      Pick<TProduct, "price">;
+    [id: TProductID]: number;
   };
 };
