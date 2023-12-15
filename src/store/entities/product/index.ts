@@ -1,12 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 import LOADING_STATUS from "@/fixtures/LOADING_STATUS";
 import { TProduct, TProductState } from "@/types";
+import { loadProductsByPageIfNotExisted } from "./thunk/loadProductsByPageIfNotExisted";
 
 const initialState: TProductState = {
   entities: {},
   ids: [],
   pages: {},
-  filter: { field: "", type: "" },
+  filter: { field: "", type: "asc" },
 
   loadingStatus: LOADING_STATUS.idle,
 };

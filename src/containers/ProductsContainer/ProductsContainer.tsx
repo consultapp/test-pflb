@@ -19,7 +19,7 @@ export default function ProductsContainer() {
 
   useEffect(() => {
     if (currentPage.categorySlug && currentPage.page)
-      dispatch(loadProductsByPageIfNotExisted(currentPage));
+      dispatch(loadProductsByPageIfNotExisted());
   }, [dispatch, currentPage]);
 
   if (isLoading) {

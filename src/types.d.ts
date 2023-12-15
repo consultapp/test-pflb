@@ -20,7 +20,7 @@ export type TProductState = {
 };
 export type TFilter = {
   field: "" | "name" | "price";
-  type: "" | "asc" | "desc";
+  type: "asc" | "desc";
 };
 // PAGE
 export type TCurrentPage = {

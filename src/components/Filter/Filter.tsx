@@ -3,16 +3,19 @@ import styles from "./style.module.scss";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
 import { productSlice } from "@/store/entities/product";
 import { selectProductFilter } from "@/store/entities/product/selectors";
+import { loadProductsByPageIfNotExisted } from "@/store/entities/product/thunk/loadProductsByPageIfNotExisted";
 
 export default function Filter() {
   const dispatch = useAppDispatch();
   const filter = useAppSelector(selectProductFilter);
 
   const handle = (e: ChangeEvent<HTMLSelectElement>) => {
-    if (filter[e.target.name as "field" | "type"] !== e.target.value)
+    if (filter[e.target.name as "field" | "type"] !== e.target.value) {
       dispatch(
         productSlice.actions.setFitler({ [e.target.name]: e.target.value })
       );
+      dispatch(loadProductsByPageIfNotExisted());
+    }
   };
 
   return (
@@ -29,7 +32,6 @@ export default function Filter() {
         <option value="price">Price</option>
       </select>
       <select name="type" className={styles.root__select} onChange={handle}>
-        <option value="">Type</option>
         <option value="asc">ASC</option>
         <option value="desc">DESC</option>
       </select>
