@@ -1,8 +1,18 @@
+$bg-primary: #242424;
+$bg-secondary: #eee;
+$bg-secondary2: #ccc;
+$bg-thirdly: white;
+
+$text-primary: #242424;
+$text-secondary: white;
+$text-thirdly: #555;
+$text-price: #2ecc71;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: $text-secondary;
+  background-color: $bg-primary;
 }
 
 html,
@@ -14,9 +24,9 @@ body {
 }
 
 a {
-  color: white;
+  color: $text-secondary;
   &:hover,
   &:active {
-    color: white;
+    color: $text-secondary;
   }
 }
